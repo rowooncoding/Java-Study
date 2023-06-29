@@ -10,5 +10,6 @@ public class _05_Overloading {
         b1.record(true, false, 3);
         System.out.println("---------------------");
         b1.record(true, true, 5);
+        b1.record();
     }
 }

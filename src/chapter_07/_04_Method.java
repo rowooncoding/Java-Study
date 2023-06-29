@@ -12,7 +12,7 @@ public class _04_Method {
         b1.autoReport(); // 지원 됨.
 
         // 메모리카드 삽입 여부 확인하기
-        b1.insertMemoryCard(256);
+        b1.insertMemoryCard(256, false);
 
         // 메모리에 있는 영상 개수 반환하기
         // 일반영상 : 1

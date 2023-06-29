@@ -17,13 +17,13 @@ public class _04_ClassVariables {
         System.out.println(b1.modelName + " 자동신고기능 " + b1.canAutoReport);
         System.out.println(b2.modelName + " 자동신고기능 " + b2.canAutoReport);
         // 스태틱으로 선언된 클래스 변수는 클래스 자체를 적어줘야한다.
-        System.out.println("모든 블랙박스 제품 자동 신고 기능 : " + BlackBox.canAutoReport);
+        System.out.println("모든 블랙박스 제품 자동 신고 기능 : " + BlackBox.canAutoReport); // 모든 블랙박스 제품 자동 신고 기능 : false
 
         // 개발후
         BlackBox.canAutoReport = true;
         System.out.println(b1.modelName + " 자동신고기능 " + b1.canAutoReport);
         System.out.println(b2.modelName + " 자동신고기능 " + b2.canAutoReport);
         // 스태틱으로 선언된 클래스 변수는 클래스 자체를 적어줘야한다. 권장 방식임!
-        System.out.println("모든 블랙박스 제품 자동 신고 기능 : " + BlackBox.canAutoReport);
+        System.out.println("모든 블랙박스 제품 자동 신고 기능 : " + BlackBox.canAutoReport); // 모든 블랙박스 제품 자동 신고 기능 : true
     }
 }

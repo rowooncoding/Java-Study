@@ -7,10 +7,30 @@ public class BlackBox {
     String resolution;
     int price;
     String color;
+    int serialNumber;
+
+    static int counter = 0; // 시리얼 번호 생성해주는 역할(처음엔 0이었다가 1씩 값을 추가하며 생성함)
 
     // static = 클래스 변수
     // 이 클래스로 만들어지는 모든 객체에 똑같이 적용된다.
     static boolean canAutoReport = false; // 자동 신고 기능
+
+    // ⭐️ 생성자 만들기!!
+    BlackBox() {
+        System.out.println("기본 생성자 호출️");
+        this.serialNumber = ++counter;
+        System.out.println("새로운 시리얼 넘버를 발급 받았습니다 : " + this.serialNumber);
+    }
+    // 생성자 사용해서 변수에 미리 할당하기
+    BlackBox(String modelName, String resolution, int price, String color){
+        this(); // 기본생성자(여기선 위 먼저 실행되고 밑에꺼 실행된다.)
+
+        System.out.println("기본 생성자 호출️");
+        this.modelName = modelName;
+        this.resolution = resolution;
+        this.price = price;
+        this.color = color;
+    }
 
     // ⭐️ 자동으로 신고하는 기능 메소드로 만들어보기
     void autoReport(){
@@ -22,9 +42,15 @@ public class BlackBox {
     }
 
     // ⭐️ 파라미터 받아서 처리하기 -> 메모리 카드 기능
-    void insertMemoryCard(int capacity){
-        System.out.println("메모리 카드가 삽입되었습니다.");
-        System.out.println("용량은 " + capacity + "GB 입니다.");
+    void insertMemoryCard(int capacity, boolean insert){
+        if(insert == true){
+            System.out.println("메모리 카드가 삽입되었습니다.");
+            System.out.println("용량은 " + capacity + "GB 입니다.");
+        }else{
+            System.out.println("메모리 카드를 삽입해주세요.");
+        }
+
+
     }
 
     // ⭐️ 메모리에 들어있는 동영상을 알려주는 코드
@@ -56,5 +82,18 @@ public class BlackBox {
     // 이렇게 호출하면 호출할때 인자값이 없더라도 기본값을 포함해서 실행된다.
     void record(){
         record(true, true, 5);
+    }
+
+    // 🧐 고객 센터에 전화하는 기능 만들어보기(클래스 메소드)
+    static void callServiceCenter(){
+        System.out.println("서비스센터(1588-0000) 로 연결합니다.");
+        // modelName = 'test'; 스태틱 안에서는 인스턴스 변수수정 불가능함
+        // canAutoReport = false; 클래스 변수는 수정 가능
+    }
+
+    // 메소드에 새로운 이름을 추가해보자!
+    void appendModelName(String modelName) {
+        // modelName += modelName; // modelName은 이름이 같다! 최신형 += 최신형임
+        this.modelName += modelName; // this : 인스턴스 객체, this.modelName = 인스턴스 변수 modelName(맨위의 것)
     }
 }
