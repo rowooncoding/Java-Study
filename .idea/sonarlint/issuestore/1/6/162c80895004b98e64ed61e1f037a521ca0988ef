@@ -1,0 +1,12 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Äá¿Áøÿÿÿÿ8®«¸µ1
+O
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8¯«¸µ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ë›œ8¯«¸µ1
+H
+java:S1481"+Remove this unused "result" local variable.(×¼Àî8·«¸µ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ8¿«¸µ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ã”…ªûÿÿÿÿ8¿«¸µ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÇÉµËûÿÿÿÿ8À«¸µ1
+k
+java:S1128"NRemove this unused import 'com.sun.org.apache.xpath.internal.objects.XNumber'.(ç§†š8Á«¸µ1

@@ -1,0 +1,12 @@
+
+…
+java:S1488"cImmediately return this expression instead of assigning it to the temporary variable "phoneNumber".(ô×·Ïûÿÿÿÿ8üóô³1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ú÷ò‚8ıóô³1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ë›œ8ıóô³1
+V
+java:S3400"9Remove this method and declare a constant for this value.(Úæ›¢8ùÜõ³1
+V
+java:S3400"9Remove this method and declare a constant for this value.(İş¼°8¥ïù³1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(šÛÁ’úÿÿÿÿ8ôô³1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ì¥Øıûÿÿÿÿ8œ§÷³1
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(˜°şûûÿÿÿÿ8¼ú³1

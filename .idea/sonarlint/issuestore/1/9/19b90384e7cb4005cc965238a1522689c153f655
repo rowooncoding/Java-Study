@@ -1,0 +1,14 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¤‹êûÿÿÿÿ8Šçö”1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(å¢ƒéúÿÿÿÿ8‹çö”1
+]	java:S125	"<This block of commented-out lines of code should be removed.(†ÕÕÎıÿÿÿÿ8çö”1
+]	java:S125"<This block of commented-out lines of code should be removed.(ÎÔ›úÿÿÿÿ8çö”1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(èÍÀ™şÿÿÿÿ8çö”1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(òÔÇÍ8çö”1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ŠÛÖ€8çö”1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÒÖ8‘çö”1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ş˜›â8‘çö”1
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(¶´›§şÿÿÿÿ8Ò¶÷”1
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(¤Ö–8ŞÁú”1
+k
+java:S1128"IRemove this unused import 'com.sun.xml.internal.ws.api.ha.StickyFeature'.(“´îŒúÿÿÿÿ8‘çö”1

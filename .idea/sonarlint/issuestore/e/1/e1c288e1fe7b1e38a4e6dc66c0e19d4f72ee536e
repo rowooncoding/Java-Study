@@ -1,0 +1,19 @@
+
+l
+java:S1192"QDefine a constant instead of duplicating this literal "ë°˜ì•¡ ìž¥í•™ê¸ˆ" 3 times.(®²ƒƒÿÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ì•ùÕ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¥Á¸Åüÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ßë§ë
+S	java:S106"9Replace this use of System.out or System.err by a logger.(®²ƒƒÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ëÍÞ¬
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Òˆž¦üÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ßë§ë
+S	java:S106"9Replace this use of System.out or System.err by a logger.(®²ƒƒÿÿÿÿÿ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(®²ƒƒÿÿÿÿÿ
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(ëÍÞ¬
+M	java:S106%"9Replace this use of System.out or System.err by a logger.(Î¹Ž?
+Q	java:S125("<This block of commented-out lines of code should be removed.(Êñçí
+f	java:S128="LEnd this switch case with an unconditional break, return or throw statement.(úâúÿÿÿÿ
+f	java:S128;"LEnd this switch case with an unconditional break, return or throw statement.(ªëÅÞúÿÿÿÿ
+<	java:S131:""Add a default case to this switch.(»€Ðýÿÿÿÿ
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(Ÿ´ÉÄþÿÿÿÿ

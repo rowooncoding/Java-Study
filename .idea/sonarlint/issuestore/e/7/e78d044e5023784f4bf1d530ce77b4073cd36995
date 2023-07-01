@@ -1,0 +1,14 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¥”äûúÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¾³¿„
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ìØ¶’úÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(©úŠ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(íƒ™Ïûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¾šú§ûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ò¡Çàùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Æµ«
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ı şşıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÕÆ–¼ıÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'java.util.Locale'.(åğ×±ûÿÿÿÿ
