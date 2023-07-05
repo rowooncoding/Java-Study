@@ -39,6 +39,7 @@ public class _Quiz_07 {
 }
 
 class Hamburger {
+
     public String name;
 
     public Hamburger(){
@@ -50,35 +51,30 @@ class Hamburger {
     }
 
     public void cook(){
-        System.out.println(this.name + "를 만듭니다.");
-        System.out.println("빵 사이에 들어가는 재료는?");
-        System.out.println("> 양상추");
-        System.out.println("+ 패티");
-        System.out.println("+ 피클");
+        System.out.println("고기넣음");
+        System.out.println("야채넣음");
     }
-
 }
 
-class CheeseBurger extends Hamburger {
+class CheeseBurger extends Hamburger{
     public CheeseBurger(){
         super("치즈버거");
     }
+
     public void cook(){
         super.cook();
-        System.out.println("+ 치즈");
+        System.out.println("치즈 넣음");
     }
 
 }
 
-class ShrimpBurger extends Hamburger {
-
+class ShrimpBurger extends Hamburger{
     public ShrimpBurger(){
         super("새우버거");
     }
 
     public void cook(){
         super.cook();
-        System.out.println("+ 새우");
+        System.out.println("새우 넣음");
     }
-
 }

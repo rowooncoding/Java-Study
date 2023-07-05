@@ -60,6 +60,7 @@ enum Resolution {
     public int getWidth(){
         return width;
     }
+
 }
 
 
