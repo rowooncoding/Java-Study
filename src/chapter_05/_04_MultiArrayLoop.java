@@ -52,7 +52,7 @@ public class _04_MultiArrayLoop {
 
         for (int i = 0; i < seats3.length; i++) { // 세로의 길이 (10)만큼 반복
             for (int j = 0; j < seats3[i].length; j++) { // seats3의 인덱스 각각의 길이 = 가로의 길이 = 15만큼 반복
-                seats3[i][j] = eng[i] + (i + 1);
+                seats3[i][j] = eng[i] + (j + 1);
                 // 의자 번호 몇행 몇열은 영어 숫자와 배열의 index +1 로 이루어진다 1부터 시작하지 않으면 첫줄이 0이 됨
             }
         }
@@ -64,6 +64,7 @@ public class _04_MultiArrayLoop {
         // 영화관 좌석 번호 확인하기
         for (int i = 0; i < seats3.length; i++) {
             for (int j = 0; j < seats3[i].length; j++) {
+                seats3[i][j] = eng[i] + (j + 1);
                 System.out.print(seats3[i][j] + " ");
             }
             System.out.println();
