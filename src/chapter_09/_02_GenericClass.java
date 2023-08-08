@@ -1,9 +1,8 @@
 package chapter_09;
 
-import chapter_09.coffee.Coffee;
-import chapter_09.coffee.CoffeeByName;
-import chapter_09.coffee.CoffeeByNickname;
-import chapter_09.coffee.CoffeeByNumber;
+import chapter_09.coffee.*;
+import chapter_09.user.User;
+import chapter_09.user.VipUser;
 
 public class _02_GenericClass {
     public static void main(String[] args) {
@@ -53,5 +52,15 @@ public class _02_GenericClass {
         c6.ready();
         String c6Name = c6.name;
         System.out.println("주문고객 이름 : " + c6Name);
+
+        System.out.println("---------------------------------");
+
+        // ⭐️ 제너릭 클래스 이용 사용자가 직접 커피 주문을 하도록 만들기
+        // 타입을 정해줄 수 있다.
+        CoffeeByUser<User> c7 = new CoffeeByUser<>(new User("강호동"));
+        c7.ready();
+
+        CoffeeByUser<User> c8 = new CoffeeByUser<>(new VipUser("서장훈"));
+        c8.ready();
     }
 }
